@@ -1,0 +1,20 @@
+
+- picture: 'asian.png'
+  name: 'Marie'
+  summary: 'Asia expert'
+
+
+- picture: 'africa.jpg'
+  name: 'Anne'
+  summary: 'Africa expert'
+
+
+- picture: 'latina.jpg'
+  name: 'Emma'
+  summary: 'latin Amrerica expert'
+
+
+- picture: 'asian.png'
+  name: 'Marie'
+  summary: 'Asia expert'
+# products.yml

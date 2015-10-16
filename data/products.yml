@@ -1,4 +1,9 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Kudoz
+  picture: http://placehold.it/150x150
+  summary: Tinder for job search.
+- name: Krawd
+  picture: http://placehold.it/150x150
+  summary:  Market place for creatives and brands.
+# products.yml
+
+

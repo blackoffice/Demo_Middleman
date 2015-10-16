@@ -1,10 +1,165 @@
----
-title: Le Wagon Middleman boilerplate
----
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+  </head>
+  <body>
+    <div class="banner text-center banner-background">
+      <div class="banner-shadow"></div>
+      <div class="banner-content fade-and-slide">
+        <h1>Travel tools</h1>
+        <p>Very cool Travels, evasion, advendure and fun</p>
+        <%= link_to "GET IT", "http://www.edreams.fr/", class: "btn btn-primary btn-lg" %>
+      </div>
+    </div>
+
+    <div class="padded">
+      <div class="container">
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature">
+            <h2>
+              <%= image_tag "chat.png"%>
+              Discuss with us
+            </h2>
+            <p>
+              The planet has been charted and documented, and yet there are still discoveries to be made. Unfamiliar ways of living and extreme natural environments help us gain perspective; the seeds of enlightenment lie in the world’s mountains and seas, deserts, and swamps, and city sidewalks.
+            </p>
+            <p>
+             Focusing on culture, craft, geography, and wildlife, Jungles in Paris attempts to tell edifying, inspiring stories that celebrate the multi-colored variety of the world around us.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature">
+            <h2>
+              <%= image_tag "mobile.png"%>
+              Always in sync
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia beatae, repellendus eveniet alias vel laboriosam, necessitatibus error cum asperiores facere aliquam consectetur ad impedit molestiae, harum? Vel, quidem, sit.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature">
+            <h2>
+              <%= image_tag "search.png"%>
+              Powerful search
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis optio adipisci minus vero voluptatum soluta corporis alias ut commodi non quaerat quasi reprehenderit sit dolore nulla qui cum explicabo, possimus.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+
+          <div class="feature">
+            <h2>
+               <%= image_tag "heart.png"%>
+              Share the love
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ab cumque delectus, reiciendis fugit molestiae totam obcaecati exercitationem illum amet, recusandae, odio est. Repudiandae sapiente provident, sint reprehenderit necessitatibus, magni.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container"><iframe class="vimeo" src="https://player.vimeo.com/video/132038125" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <div class="padded">
+      <h2 class="section-header text-center">Most popular</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="card">
+              <span class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1433725106561-2bbbbc0aa908?q=80&fm=jpg&s=3ef8dab551db61b745a120bc81208030')"></span>
+              <span class="card-shadow"></span>
+              <span class="card-description">Popular</span>
+              <span class="card-text">
+                <h2>Indonesia</h2>
+                <p>Togian Islands</p>
+              </span>
+              <span class="card-user">
+               <%= image_tag "http://placehold.it/50x50", class: "avatar avatar-bordered" %>
+              </span>
+              <%= link_to "", "#", class: "card-link" %>
+
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card">
+              <span class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1424288701747-45056405dbbd?q=80&fm=jpg&s=ea8af668812f6bfd25a558d0a0d8f653')"></span>
+              <span class="card-shadow"></span>
+              <span class="card-description">Popular</span>
+              <span class="card-text">
+                <h2>Marocco</h2>
+                <p>Sahel Desert</p>
+              </span>
+              <span class="card-user">
+                <%= image_tag "http://placehold.it/50x50", class: "avatar avatar-bordered" %>
+
+              </span>
+              <%= link_to "", "#", class: "card-link" %>
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="card">
+              <span class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1422217604777-710d38a8d846?q=80&fm=jpg&s=28271d77658911683df31bfcbfafe02c')"></span>
+              <span class="card-shadow"></span>
+              <span class="card-description">Popular</span>
+              <span class="card-text">
+                <h2>Chili</h2>
+                <p>Valle Nevado</p>
+              </span>
+              <span class="card-user">
+                <%= image_tag "http://placehold.it/50x50", class: "avatar avatar-bordered" %>
+              </span>
+              <%= link_to "", "#", class: "card-link" %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center padded" id="newsletter">
+      <h2 class="section-header">Get news from us</h2>
+      <p>Leave us your mail and get stylus news</p>
+      <form class="form-inline">
+        <input type="email" placeholder="voyage@icloud.com" class="form-control">
+        <input type="submit" value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
+      </form>
+    </div>
+
+    <div id="map" style="width: 100%;height: 300px;"></div>
+
+
+
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [{"featureType":"all","elementType":"geometry","stylers":[{"saturation":"-100"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]}]
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title:"You are here!"
+    });
+    </script>
+
+
+
+  </body>
+</html>
